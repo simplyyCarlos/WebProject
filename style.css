@@ -52,12 +52,17 @@ html{
     display: inline-block;
 }
 
+.navbar .menu .active{
+    color : var(--red-color);
+}
+
 .navbar .menu li a {
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
     color: #fff;
 }
+
 
 .home {
     display: flex;
