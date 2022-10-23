@@ -5,6 +5,18 @@ function getActiveURL($fileName){
         echo('active');
     }
 };
+function getImgFormat(){
+    if(preg_match('#image/avif#', $_SERVER['HTTP_ACCEPT'])){
+        echo('.avif');
+    }
+    else if(preg_match('#image/webp#',$_SERVER['HTTP_ACCEPT'])){
+        echo('.webp');
+    }else{
+        echo('.jpg');
+    }
+    
+};
+
 ?>
 <?php
 # Constantes php utilisées dans le bottom.php

@@ -13,16 +13,20 @@
         <div class="mid">
                 <div class="article-container">
                     <article class="card">
-                        <img src ="./images/volley.jpg">
+                        <img src ='./images/volley<?php getImgFormat();?>'>
+                        <div class="card-text">Qui soluta saepe et officiis enim non libero galisum non molestias commodi cum mollitia deserunt ea repellat nihil sit enim illum. Qui cupiditate magnam vel accusamus libero ad repellat itaque</div>
                     </article>
                     <article class="card">
-                        <img src="./images/basket.jpg">
+                        <img src="./images/basket<?php getImgFormat();?>">
+                        <div class="card-text">Qui soluta saepe et officiis enim non libero galisum non molestias commodi cum mollitia deserunt ea repellat nihil sit enim illum. Qui cupiditate magnam vel accusamus libero ad repellat itaque</div>
                     </article>
                     <article class="card">
-                        <img src="./images/tennis.jpg">
+                        <img src="./images/tennis<?php getImgFormat();?>">
+                        <div class="card-text">Qui soluta saepe et officiis enim non libero galisum non molestias commodi cum mollitia deserunt ea repellat nihil sit enim illum. Qui cupiditate magnam vel accusamus libero ad repellat itaque</div>
                     </article>
                     <article class="card">
-                        <img src="./images/foot.jpg">
+                        <img src="./images/foot<?php getImgFormat();?>">
+                        <div class="card-text">Qui soluta saepe et officiis enim non libero galisum non molestias commodi cum mollitia deserunt ea repellat nihil sit enim illum. Qui cupiditate magnam vel accusamus libero ad repellat itaque</div>
                     </article>
                 </div>
         </div>
