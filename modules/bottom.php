@@ -1,2 +1,2 @@
 <?php include('include/const.php');?>
-<p><?php echo(NUM);?></p>
+<p> Numéro : <?php echo(NUM);?></p>
