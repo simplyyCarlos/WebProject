@@ -183,3 +183,8 @@ html{
 .foot p{
     padding-right: 2vw;
 }
+.foot p a{
+    color: inherit;
+    text-decoration: underline;
+    
+}
